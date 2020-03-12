@@ -1,0 +1,37 @@
+.container{
+	width:100%;
+	Height:100%;
+	background: #CCC;
+	Position: Absolute;
+}
+
+.container h1{
+	margin:auto;
+	left: 50%;
+	font-family: Tahoma;
+}
+
+.contact_form{
+	width: 50%;
+	height:50%;
+	margin:auto;
+	background: white;
+	box-shadow: 5px 8px rgba(0,0,0,0.6);
+	font-family: Tahoma;
+}
+.form_div{
+	position:relative;
+	top:25%;
+	bottom:25%;
+	left:25%;
+	right: 25%;
+	width: 50%;
+	height:25%;
+}
+	
+	
+
+
+	
+
+

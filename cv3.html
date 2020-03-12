@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+ </div>
+ 
+ <div class="navbar">
+ <a href="index.html">Home</a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">My CV &nbsp;
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="cv4.html">Personal Details</a>
+      <a href="cv2.html">Education</a>
+      <a href="cv3.html">Work Experience</a>
+  </div>
+  </div> 
+  <a href="interests.html">Interests</a>
+  <a href="consulting.html">Consulting</a>
+  <a href="Ebus1.html">Ebusiness Calculator</a>
+</div>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>	
+
+
+
+<Style>
+body {
+background-color:#99ddff ;
+padding: 20px; 
+text align: center
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+</style>
+</head>
+<body>
+<title> Work Experience</title>
+<Meta charset "UTF-8">
+<h1> Work Experience </h1>
+<br>
+<h3> Waitress July 2016- August 2017</h3>
+<p> I worked as a waitress in a seafood Restaurant called Quinlans from July 2016 to August 2017. I learnt a variety of skills and gained valuable experience in how to deal with the public</p>
+<br>
+<h3>Christmas Retail Assistant Dec 2017- January 2018</h3>
+<p>I worked as a Retail Assistant for the christmas period in the chemist store "Boots". I learned valuable life lessons including social and interpersonal skills. I also got to see first hand how succesful businesses like Boots operate. 
+<br>
+<h3>Cashier in O'Reillys Garage July 2018- August 2018</h3>
+<p> I worked as a cashier in a garage during the summer of 2019. During the time i spent working there, i learnt how to handle cash and and gained valuable till experience.
+<br>
+<h3> Sales Assistant in Omniplex Cinema Mahon Point Shopping Centre August 2019- present</h3>
+<p>I am currently working as a Sales Assistant in the Omniplex Cinema in Mahon Point. 
+</body>
+<html>
+

@@ -1,0 +1,131 @@
+<DOCTYPE! html>
+<html>
+<head>
+</div>
+<nav>
+<div class="navbar">
+<a href="index.html">Home</a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">My CV &nbsp;
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="cv4.html">Personal Details</a>
+      <a href="cv2.html">Education</a>
+      <a href="cv3.html">Work Experience</a>
+  </div>
+  </div> 
+  <a href="interests.html">Interests</a>
+  <a href="consulting.html">Consulting</a>
+  <a href="Ebus1.html">Ebusiness Calculator</a>
+</div>
+</nav>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+	<Style>
+body {
+background-color: #99ddff;
+padding: 20px; 
+text align: center
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+</style>
+<title>Consulting</title>
+<meta charset="Utf-8">
+</head>
+<body>
+<h1> Consulting Services</h1>
+<br>
+<p>O'Dwyer Consultancy is an Irish owned Web Design Company based in Cork, Ireland. We pride ourselves on our innovative and ever-evolving strategies to help businesses across many sectors move into the digital era of today's demanding technology trends.
+
+We believe that in today's market it is imperative for businesses to have a modern GDPR compliant web platform in place to keep on par with their competitors.</p>
+<h2>Hyperautomation</h2> <img src="Hyperautomation.jpg" alt="Hyperautomation" width= "300" height="200"/>
+<p>Hyper automation deals with the application of advanced technologies, including artificial intelligence (AI) and machine learning (ML), to increasingly automate processes and augment humans. Hyper automation often results in the creation of a digital twin of the organization.</p>
+<br>
+<h2>Multi-Experience</H2><img src="multiexperience.jpg" alt="multiexperience" width= "400" height="300"/>
+<P>Multiexperience development involves creating fit-for-purpose apps based on touchpoint-specific modalities, while at the same time ensuring a consistent user experience across web, mobile, wearable, conversational and immersive touchpoints.</p>
+<br>
+<h2> Distributed Cloud</h2>
+
+<img src="distributedcloud.jpg" alt="distributed cloud" width= "400" height="300">
+<p>A distributed cloud is a type of cloud that has geographically dispersed infrastructure that primarily runs services at the network edge. This is different from the theoretical cloud model that relies on a centralized data center. 
+
+With a distributed cloud model, organizations reduce latency, network congestion, and risk of data loss. In addition, organizations can better ensure compliance with data sovereignty regulations since data can be kept in the country it was generated in.</p>
+</body>
+
+</html>
